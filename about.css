@@ -1,0 +1,101 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.container {
+  flex-wrap: wrap;
+  border-bottom: 5px solid #a9508b;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2.5rem;
+  background-color: #35424a;
+  color: white;
+}
+.left span {
+  color: #a9508b;
+  margin-right: 5px;
+}
+.right a {
+  margin: 5px;
+  color: white;
+  text-decoration: none;
+}
+.right .home {
+  color: #a9508b;
+}
+.subs {
+  background-color: #35424a;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+}
+.subs h3 {
+  font-size: 1.5rem;
+}
+.subs input {
+  padding: 5px;
+}
+.subs button {
+  letter-spacing: 1px;
+  padding: 7px;
+  color: white;
+  background-color: orangered;
+  border: none;
+}
+.copy {
+  background-color: #35424a;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 2rem;
+  padding: 2rem;
+  
+  
+}
+.about {
+
+  
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  height: 59.1vh;
+}
+.about-left {
+  margin-top: 2rem;
+  width: 55%;
+}
+.about-left h3 {
+  font-size: 1.5rem;
+}
+.about-back {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 1rem;
+  color: white;
+  background-color: #35424a;
+  margin-top: 1rem;
+}
+.about-right {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 1rem;
+  color: white;
+  background-color: #35424a;
+  margin-top: 1rem;
+  width: 40%;
+  height: 40%;
+}
+.about-right h3 {
+  font-size: 1.5rem;
+}
+.copy img{
+  margin-top: 1rem;
+}

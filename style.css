@@ -1,0 +1,116 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.container {
+  flex-wrap: wrap;
+  border-bottom: 5px solid #a9508b;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2.5rem;
+  background-color: #35424a;
+  color: white;
+}
+.left span {
+  color: #a9508b;
+  margin-right: 5px;
+}
+.right a {
+  margin: 5px;
+  color: white;
+  text-decoration: none;
+}
+.right .home {
+  color: #a9508b;
+}
+.mid {
+  height: 37.6vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url(./img/showcase.jpg);
+  gap: 1rem;
+  color: white;
+  text-align: center;
+}
+.head {
+  font-size: 2.3rem;
+}
+.not {
+  font-size: 1rem;
+}
+.subs {
+  background-color: #35424a;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+}
+.subs h3 {
+  font-size: 1.5rem;
+}
+.subs input {
+  padding: 5px;
+}
+.subs button {
+  letter-spacing: 1px;
+  padding: 7px;
+  color: white;
+  background-color: orangered;
+  border: none;
+}
+.content {
+  gap: 10px;
+  margin-top: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.HTML5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.HTML5 img {
+  width: 90px;
+}
+.CSS3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.CSS3 img {
+  width: 90px;
+}
+.Graphic img {
+  width: 90px;
+}
+.Graphic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.copy {
+  background-color: #35424a;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 2rem;
+  padding: 2rem;
+  
+}
+.copy img{
+  margin-top: 1rem;
+}
